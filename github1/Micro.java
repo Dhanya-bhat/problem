@@ -15,19 +15,12 @@ public class Micro {
 
 	           int arr[] = new int[n];
 
-	           
-
 	             for(int j=0; j<n;j++){
 
 	              arr[j]=sc.nextInt();
+		     }
 
-	               
-
-	             }
-
-	             
-
-	            int min=arr[0];
+	               int min=arr[0];
 
 	            for(int j=0;j<n;j++ ){
 
@@ -37,10 +30,7 @@ public class Micro {
 
 	                }
 
-	            }
-
-	            
-
+		    }
 	          if(min<k) 
 
 	         System.out.println(k-min);
@@ -49,9 +39,7 @@ public class Micro {
 
 	         System.out.println(0);   
 
-	        }
-
-	        
+	        }        
 
 	    }
 
