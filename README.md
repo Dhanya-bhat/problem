@@ -45,4 +45,8 @@ Pink is delivered his records in some given order, he can either add the record 
 Playlist in the delivered order or put some on another table. After being put on the
 table only the topmost record can be added to the playlist at any time.
 Print whether Pink will be sad or happy after the delivery of the records.
-
+Input Format
+N - Number of records followed by
+N numbers- order of records.
+Output Format
+Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
