@@ -1,0 +1,39 @@
+1.Write a menu program in Python to find Area-Circle, Circumference-Circle, Area- Square, Circumference-Square using functions with menu choice
+def AreaCircle(r):
+return rr
+def CircumferenceCircle(r):
+return 23.14r
+
+def AreaSquare(b,h):
+return b*h
+def CircumferenceSquare(h):
+return 4h
+
+#pgm.py
+
+from main import*
+r=float(input("Enter Radius Of Circle: "))
+a=AreaCircle(r)
+print("Area Of Circle: ",a)
+c=CircumferenceCircle(r)
+print("Circumference Of Circle is: ",c)
+
+b=float(input('Enter Base Of Square: '))
+h=float(input('Enter Height Of Square: '))
+A=AreaSquare(b,h)
+print("Area Of Square is: ",A)
+CS=CircumferenceSquare(h)
+print("Circumference Of Square is: ",CS)
+
+
+
+2.Python program in number right angled triangle
+
+n=int(input('Enter Number '))
+a=n
+for i in range(n,0,-1):
+for j in range (a,0,-1):
+print(j,end='')
+print()
+a-=1
+
